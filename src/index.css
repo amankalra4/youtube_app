@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkseagreen;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.search-bar {
+  margin: 20px;
+  width: 50%;
+  padding-bottom: 4px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  outline: none;
+}
+
+.search-bar input {
+  width: 75%;
+  
+}
+
+.search-button {
+  padding: 2px 20px;
+  border: 0;
+  border-radius: 2px;
+  font-weight: lighter;
+  font-size: 15px;
+  background-color: azure;
+}
+
+.videoList {
+  float: right;
+}
+
+.div1 {
+  width: 50%;
+  float: left;
 }
