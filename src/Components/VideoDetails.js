@@ -16,10 +16,11 @@ const VideoDetails = (props) => {
     const url = `https://www.youtube.com/embed/${videoId}`;
 
     return (
-        <div>
+        <div style = {{margin: '20px'}}>
             <div>
                 <iframe src = {url} title = {video.etag} />
             </div>
+            <a href = {url} target = '_blank'>Here</a>
             <div>
                 <div>{video.snippet.title}</div>
                 <div>{video.snippet.description}</div>

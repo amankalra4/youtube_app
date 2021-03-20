@@ -21,6 +21,7 @@ class SearchBar extends Component {
         }
         else {
             YTSearch({key: API, term: event.target.value}, (data) => {
+                console.log(data);
                 this.setState({videos: data,
                                selectedVideos: data[0]});
           });

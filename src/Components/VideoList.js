@@ -23,7 +23,7 @@ const VideoList = (props) => {
     });
     
     return (
-        <div className = 'videoList'>
+        <div className = 'videoList' style = {{float: 'left', width: '50%', marginTop: '20px'}}>
             {videoItems}
         </div>
     );
