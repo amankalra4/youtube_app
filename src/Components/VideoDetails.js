@@ -7,7 +7,7 @@ const VideoDetails = (props) => {
     if(!video) {
         return (
             <div style = {{margin: '20px'}}>
-                Loading...
+                Loading.....
             </div>
         );
     }
